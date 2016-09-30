@@ -1,0 +1,238 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "09ad0840-875a-11e6-ada5-28187845b040", 
+    "deck_config_uuid": "a69dd698-6d5b-11e6-adf3-8c705a50cbf0", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "a69dd698-6d5b-11e6-adf3-8c705a50cbf0", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 20, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 100
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [], 
+    "mid": 1356407517832, 
+    "name": "Psychology", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Text", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Extra", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Source", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": true
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Cloze [extra, source]", 
+            "sortf": 0, 
+            "tags": [
+                "bash", 
+                "link", 
+                "ln"
+            ], 
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}\n<br>\n{{Extra}}\n<br>\n<a href=\"{{text:Source}}\">{{Source}}</a>", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Cloze", 
+                    "ord": 0, 
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ], 
+            "type": 1, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "The {{c1::Barnum effect}}, also called the {{c2::Forer effect}}.", 
+                "", 
+                "<a href=\"https://en.wikipedia.org/wiki/Barnum_effect\">https://en.wikipedia.org/wiki/Barnum_effect</a>"
+            ], 
+            "flags": 0, 
+            "guid": "Q:)4`gXD$^", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "Psychology", 
+                "effect", 
+                "rationality"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::The Barnum effect}}&nbsp;is the observation that individuals will give {{c2::high accuracy ratings to descriptions of their personality that supposedly are tailored specifically for them}}, but are in fact {{c3::vague and general enough to apply to a wide range of people.}}", 
+                "", 
+                "<a href=\"https://en.wikipedia.org/wiki/Barnum_effect\">https://en.wikipedia.org/wiki/Barnum_effect</a>"
+            ], 
+            "flags": 0, 
+            "guid": "@@cv4Rqn^", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "Psychology", 
+                "effect", 
+                "rationality"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::This Barnum effect}} can provide a partial explanation for the {{c2::widespread acceptance of some beliefs and practices,}} such as:<div>{{c3::1) astrology;}}</div><div>{{c4::2) fortune telling;}}</div><div>{{c5::3) graphology;}}</div><div>{{c6::4) aura reading;&nbsp;}}</div><div>and {{c7::some types of personality tests}}.</div>", 
+                "", 
+                "<a href=\"https://en.wikipedia.org/wiki/Barnum_effect\">https://en.wikipedia.org/wiki/Barnum_effect</a>"
+            ], 
+            "flags": 0, 
+            "guid": "y]9{mLKZ}H", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "Psychology", 
+                "effect", 
+                "rationality"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "The Barnum effect can be described as a more specific case of&nbsp;{{c1::<a href=\"https://en.wikipedia.org/wiki/Subjective_validation\">subjective validation</a>&nbsp;phenomenon}}.", 
+                "", 
+                "<a href=\"https://en.wikipedia.org/wiki/Barnum_effect\">https://en.wikipedia.org/wiki/Barnum_effect</a>"
+            ], 
+            "flags": 0, 
+            "guid": "c1C(J+tp*#", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "Psychology", 
+                "effect", 
+                "rationality"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Subjective validation}} occurs when {{c2::two unrelated or even random events}} are {{c3::perceived to be related}} because a {{c4::belief}}, {{c5::expectation}}, or {{c6::hypothesis}} demands a relationship.", 
+                "", 
+                "<a href=\"https://en.wikipedia.org/wiki/Barnum_effect\">https://en.wikipedia.org/wiki/Barnum_effect</a>"
+            ], 
+            "flags": 0, 
+            "guid": "v&s_-3cZ[u", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "Psychology", 
+                "effect", 
+                "rationality"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "{{c1::Example of subjective validation phenomenon:}} people tend to {{c2::&nbsp;actively seek a correspondence}} between {{c3::their perception of their personality}} and the {{c4::contents of a horoscope.}}", 
+                "", 
+                "<a href=\"https://en.wikipedia.org/wiki/Barnum_effect\">https://en.wikipedia.org/wiki/Barnum_effect</a>"
+            ], 
+            "flags": 0, 
+            "guid": "deq,<i[[&.", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "Psychology", 
+                "effect", 
+                "rationality"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Three important factors that influence&nbsp;Forer effect (people tend to give higher accuracy to describtions if the following is true):<div><div>{{c3::1) The subject believes that the analysis applies only to them, and thus applies their own meaning to the statements.}}</div><div>{{c2::2) The subject believes in the authority of the evaluator.}}</div><div>{{c1::3) The analysis lists mainly positive traits.}}</div></div>", 
+                "", 
+                "<a href=\"https://en.wikipedia.org/wiki/Barnum_effect\">https://en.wikipedia.org/wiki/Barnum_effect</a>"
+            ], 
+            "flags": 0, 
+            "guid": "ew;dN7Y_u+", 
+            "note_model_uuid": "b999bc9a-7ce6-11e6-9d08-8c705a50cbf0", 
+            "tags": [
+                "Psychology", 
+                "effect", 
+                "rationality"
+            ]
+        }
+    ]
+}
